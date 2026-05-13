@@ -1,0 +1,23 @@
+### Create
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "nome": "Produto A",
+  "quantidade": 10,
+  "preco": 99.99
+}
+
+### List
+GET http://localhost:3000/products
+
+### Update
+PUT http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+  "quantidade": 20
+}
+
+### Delete
+DELETE http://localhost:3000/products/1
