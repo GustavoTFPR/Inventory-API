@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import { DataSource, type DataSourceOptions } from "typeorm";
-import { Product } from "./entities/Product.js";
+import { Product } from "./entity/Product.js";
 
 const options: DataSourceOptions = {
   type: (process.env.DB_TYPE as "postgres") || "postgres",

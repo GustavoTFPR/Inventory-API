@@ -1,6 +1,6 @@
 import type { Request, Response } from "express";
 import { AppDataSource } from "../data-source.js";
-import { Product } from "../entities/Product.js";
+import { Product } from "../entity/Product.js";
 
 export class ProductService {
   private productRepo = AppDataSource.getRepository(Product);

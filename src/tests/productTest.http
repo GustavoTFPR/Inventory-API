@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ### List
-GET http://localhost:3000/products
+GET http://localhost:3000/products/
 
 ### Update
 PUT http://localhost:3000/products/1
